@@ -1,25 +1,53 @@
 # 2311102441251_WAHYU-SETIOBUDI_DJANGO
 
-## Cara menginstall django
-1. buka cmd
-2. lalu masuk kedalam folder website dan masuk ke direktorinya
-3. setelah itu kita buat venv, saya memakai env. dengan mengetik 
+# Personal Portfolio
+
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
+[![Django](https://img.shields.io/badge/Django-%23092E20.svg?logo=django&logoColor=white)](#)
+
+
+## Deskripsi Singkat
+Proyek ini adalah website portofolio yang dibuat menggunakan Django, yang terdiri dari dua halaman utama: My Home dan My About.
+
+## Ada apa saja di website ini
+1. My Home: Halaman utama yang menampilkan informasi portofolio.
+2. My About: Halaman tentang yang memberikan detail lebih lanjut tentang pembuat portofolio
+
+
+# Cara menjalankan project
+1. clone repository
 ```
-py -m venv .venv
+git clone https://github.com/wahyukece78/2311102441251_WAHYU-SETIOBUDI_DJANGO.git
 ```
-4. untuk mengaktifkannya, kita masuk ke folder env, masuk lagi ke folder Scripts, setelah itu kita ketik 
+2. Buat virtual environment 
 ```
-activate
+python -m venv .venv
 ```
-5. kita sudah didalam lingkungkan virtual, setelah itu kita install django-nya dengan mengetik 
+3. Aktifkan virtual environment: 
+```
+.venv\Scripts\activate
+```
+4. Install Django:
 ```
 pip install django
 ```
-6. dan kemudian kita membuat project baru django dengan mengetik  (saya menggunakan newwebsite)
+5. Cek apakah Django sudah terinstall:
 ```
-django-admin startproject newweebsite
+pip list
 ```
-7. project telah dibuat dan untuk mengeceknya kita bisa mengetik 
+6. Buat project Django:
+```
+django-admin startproject portofolio
+``` 
+7. Jalankan server:
 ```
 py manage.py runserver
+```
+8. untuk melihat halaman my home
+```
+http://127.0.0.1:8000/
+```
+9. untuk melihat halaman my about
+```
+http://127.0.0.1:8000/about/
 ```
