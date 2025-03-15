@@ -30,7 +30,7 @@ pip install django
 ```
 6. dan kemudian kita membuat project baru django dengan mengetik  (saya menggunakan portofolio)
 ```
-django-admin startproject websiteku
+django-admin startproject portofolio
 ```
 7. setelah itu jika ingin membuat apps kita bisa mengetik
 ```
