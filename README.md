@@ -28,7 +28,7 @@ activate
 ```
 pip install django
 ```
-6. dan kemudian kita membuat project baru django dengan mengetik  (saya menggunakan newwebsite)
+6. dan kemudian kita membuat project baru django dengan mengetik  (saya menggunakan portofolio)
 ```
 django-admin startproject websiteku
 ```
