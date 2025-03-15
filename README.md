@@ -2,52 +2,45 @@
 
 # Personal Portfolio
 
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
-[![Django](https://img.shields.io/badge/Django-%23092E20.svg?logo=django&logoColor=white)](#)
+Website ini merupakan portfolio pribadi saya yang berisi tentang informasi diri saya.
 
+## Ada apa saja isi dihalaman website saya?
 
-## Deskripsi Singkat
-Proyek ini adalah website portofolio yang dibuat menggunakan Django, yang terdiri dari dua halaman utama: My Home dan My About.
+1. alaman Home - Menampilkan ringkasan dari setiap halaman yang ada di website.
+2. Halaman About - Berisi tulisan yang saya buat untuk memperkenalkan diri lebih jauh.
 
-## Ada apa saja di website ini
-1. My Home: Halaman utama yang menampilkan informasi portofolio.
-2. My About: Halaman tentang yang memberikan detail lebih lanjut tentang pembuat portofolio
+## setelah itu saya menambahkan apps pada project saya
+1. app Berita - Menampilkan berita terkini.
+2. app Pengguna - Mengelola data pengguna.
 
-
-# Cara menjalankan project
-1. clone repository
+## Cara Menjalankan Project
+1. buka command prompt
+2. Arahkan ke folder tempat web kita berada
+3. setelah itu kita buat venv, saya memakai env. dengan mengetik 
 ```
-git clone https://github.com/wahyukece78/2311102441251_WAHYU-SETIOBUDI_DJANGO.git
+py -m venv .venv
 ```
-2. Buat virtual environment 
+4. untuk mengaktifkannya, kita masuk ke folder env, masuk lagi ke folder Scripts, setelah itu kita ketik 
 ```
-python -m venv .venv
+activate
 ```
-3. Aktifkan virtual environment: 
-```
-.venv\Scripts\activate
-```
-4. Install Django:
+5. kita sudah didalam lingkungkan virtual, setelah itu kita install django-nya dengan mengetik 
 ```
 pip install django
 ```
-5. Cek apakah Django sudah terinstall:
+6. dan kemudian kita membuat project baru django dengan mengetik  (saya menggunakan newwebsite)
 ```
-pip list
+django-admin startproject websiteku
 ```
-6. Buat project Django:
+7. setelah itu jika ingin membuat apps kita bisa mengetik
 ```
-django-admin startproject portofolio
-``` 
-7. Jalankan server:
+python manage.py startapp "kita dapat membuat sesuai keinginan kita"
+```
+8. serelah itu, untuk membuat migration kita dapat mengetikkan
+```
+python manage.py makemigrations "nama apps yang kita buat"
+```
+9. Setelah project dan apps telah dibuat dan untuk mengeceknya kita bisa mengetik 
 ```
 py manage.py runserver
-```
-8. untuk melihat halaman my home
-```
-http://127.0.0.1:8000/
-```
-9. untuk melihat halaman my about
-```
-http://127.0.0.1:8000/about/
 ```
