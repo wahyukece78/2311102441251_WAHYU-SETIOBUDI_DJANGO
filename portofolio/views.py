@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 def home(request):
-    template_name = "home.html"
+    template_name = "halaman/index.html"
     context = {
         'title' : 'my home',
         'welcome' :'welcome my home',
