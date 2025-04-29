@@ -13,6 +13,7 @@ urlpatterns = [
     path('', home, name='home'),
     
     path('dashboard/', include("berita.urls")),
+    
 ]
 
 if settings.DEBUG:
