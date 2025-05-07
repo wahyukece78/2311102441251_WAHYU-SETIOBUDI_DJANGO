@@ -27,9 +27,19 @@ git clone https://github.com/wahyukece78/2311102441251_WAHYU-SETIOBUDI_DJANGO
 ```
 py manage.py runserver
 ```
-4. Jika server sudah jalan maka akan muncul halaman website
-
-5. jika ingin pindah ke dashbord
+4. install mysqlclient
 ```
-http://127.0.0.1:8000/dashboard/
+pip install mysqlclient
+```
+5. install pillow
+```
+pip install pillow
+```
+6. makemigrations
+```
+py manage.py makemigrations
+```
+7. migrate
+```
+py manage.py migrate
 ```
