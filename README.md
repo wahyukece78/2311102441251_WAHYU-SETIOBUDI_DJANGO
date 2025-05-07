@@ -7,11 +7,7 @@
 
 
 ## Deskripsi Singkat
-Membuat CRUD untuk kategori dan artikel. Mengubah templates yang ada di dashboard menjadi apa yang telah kita buat di admin
-
-## Ada apa saja di website ini
-1. membuat CRUD kategori
-2. membuat CRUD artikel
+menambahkan home yang kita ambil dari admin
 
 
 # Cara menjalankan project
